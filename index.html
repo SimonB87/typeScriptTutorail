@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document | Net Ninja</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Typescript tutorial</h1>
+  <p>This is the course follow along</p>
+  <h2>Course material</h2>
+  <p>The Net Ninja github <a href="https://github.com/iamshaunjp/typescript-tutorial">repository</a></p>
+  <h2>Video Source</h2>
+  <p>The Net Ninja youtube <a href="https://www.youtube.com/watch?v=iTZ1-85I77c&t=33s">course</a></p>
+  <h2>Link To demo app</h2>
+  <p>during the tutorial we have built the invoices <a href="#">app</a></p>
+  <br>
+  <hr>
+  <h3>Notes from tutorial</h3>
+  <h4>Compiling</h4>
+  <p><strong>Direct compile: </strong> "tsc script.ts script.js" </p>
+  <p><strong>Direct compile short: </strong> "tsc script.ts" </p>
+  <p><strong>Watch for change to compile: </strong> "tsc script.ts -w"</p>
+  <p><strong>Watch for change to compile: </strong> "tsc script.ts -w"</p>
+  <p><strong>Watch for change all files to compile: </strong> "tsc -w"</p>
+  <h4>Workflow for public/src folders</h4>
+  <p>Put files to public/source folders</p>
+  <p>Add init file with command: "tsc --init"</p>
+  <p>Allow rootDir and public dir and specify folder names</p>
+  <ol>
+    <li>"outDir": "./public"</li>
+    <li>"rootDir": "./source"</li>
+  </ol>
+  <p><strong>Option to only rootDir files can go inside outDir folder:</strong> add ' "include": ["source"] ' to end of tsconfig.json file.</p>
+  <p><strong>Option to leave out comments:</strong> remove comments on ' "removeComments": true, '.</p>
+
+  <script src="script.js"></script>
+</body>
+</html>
