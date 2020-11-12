@@ -35,6 +35,8 @@
   <p><strong>Option to only rootDir files can go inside outDir folder:</strong> add ' "include": ["source"] ' to end of tsconfig.json file.</p>
   <p><strong>Option to leave out comments:</strong> remove comments on ' "removeComments": true, '.</p>
 
-  <script src="script.js"></script>
+  <h4>Modular JS</h4>
+  <p>To allow modules in JS we need to edit the script link: " < script type="module" src='app.js' > " </p>
+  <p>Also we need to edit the tsconfig.json file: "target": "es6", and "module": "es2015", </p>
 </body>
 </html>
