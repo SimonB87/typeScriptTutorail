@@ -14,24 +14,9 @@
       this.amount = a;
     }
   
-    format(){
-      // this.client = "Johnny"; - here i can not edit a read only variable
-      return `${this.client} owes £${this.amount} for ${this.details}.`;
-    }
-  }
-  
   const invOne = new Invoice('mario', 'work on the mario website', 250);
   const invTwo = new Invoice('luigi', 'work on the luigi website', 300);
   
-// There is a shorthand expression for declaring class variables.
-  class Car {
-    constructor(
-      readonly name: string,
-      private horsePower: number,
-      public gta: boolean
-    ){}
-  }
-
   const carOne = new Car("Mustang", 500, true);
   console.log(carOne);
 
